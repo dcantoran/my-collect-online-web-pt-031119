@@ -8,7 +8,7 @@ def my_collect(array)
   result
 end
 
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(array) do |name|
+arr = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+my_collect(arr) do |name|
   name.split(" ").first
 end
